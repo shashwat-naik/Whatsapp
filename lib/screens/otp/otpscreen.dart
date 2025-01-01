@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:whatsapp_ui/screens/profile/profilescreen.dart';
 import 'package:whatsapp_ui/widgets/uihelper.dart';
 
 class OtpScreen extends StatelessWidget {
@@ -90,8 +91,8 @@ class OtpScreen extends StatelessWidget {
       ),
       floatingActionButton: Uihelper.CustomButton(
           callback: () {
-            // Navigator.push(context,
-                // MaterialPageRoute(builder: (context) => ProfileScreen()));
+            Navigator.push(context,
+                MaterialPageRoute(builder: (context) => Profilescreen()));
           },
           buttonname: "Next"),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
