@@ -6,10 +6,7 @@ import 'package:whatsapp_ui/Screens/Home/homescreen.dart';
 import 'package:whatsapp_ui/widgets/uihelper.dart';
 import 'package:permission_handler/permission_handler.dart';
 
-Future<void> _requestPermissions() async {
-  await Permission.camera.request();
-  await Permission.photos.request();
-}
+
 
 class Profilescreen extends StatefulWidget {
   @override
